@@ -16,7 +16,9 @@
     "test": "mocha --reporter min test/human-data.js && standard --fix",
     "test-all": "mocha --reporter min && standard --fix",
     "wizard": "node wizard.js",
-    "release": "script/release.sh"
+    "release": "script/release.sh",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "https://github.com/electron/electron-apps",
   "keywords": [
@@ -35,23 +37,27 @@
     "dotenv-safe": "^4.0.4",
     "duration": "^0.2.0",
     "get-image-colors": "^1.8.1",
-    "github": "^9.2.0",
-    "github-url-to-object": "^4.0.2",
+    "github": "^12.0.0",
+    "github-url-to-object": "^4.0.4",
     "husky": "^0.14.3",
     "image-size": "^0.5.0",
     "inquirer": "^2.0.0",
-    "is-url": "^1.2.2",
-    "mkdirp": "^0.5.1",
-    "mocha": "^3.2.0",
+    "is-url": "^1.2.4",
+    "mkdirp": "^0.5.2",
+    "mocha": "^6.2.3",
     "npm-run-all": "^4.0.1",
     "recursive-readdir-sync": "^1.0.6",
     "rimraf": "^2.6.1",
-    "sharp": "^0.17.0",
+    "sharp": "^0.19.0",
     "slugg": "^1.1.0",
-    "standard": "^10.0.2",
+    "standard": "^11.0.0",
     "yamljs": "^0.2.8"
   },
   "engines": {
     "node": ">=4"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }

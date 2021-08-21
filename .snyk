@@ -1,0 +1,57 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - github > follow-redirects > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+    - github > https-proxy-agent > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint-plugin-import > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint-plugin-import > eslint-module-utils > debug:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:extend:20180424':
+    - github > https-proxy-agent > extend:
+        patched: '2021-08-21T07:06:23.004Z'
+    - inquirer > external-editor > extend:
+        patched: '2021-08-21T07:06:23.004Z'
+    - get-image-colors > get-pixels > request > extend:
+        patched: '2021-08-21T07:06:23.004Z'
+    - github > https-proxy-agent > agent-base > extend:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:hoek:20180212':
+    - get-image-colors > get-pixels > request > hawk > hoek:
+        patched: '2021-08-21T07:06:23.004Z'
+    - get-image-colors > get-pixels > request > hawk > boom > hoek:
+        patched: '2021-08-21T07:06:23.004Z'
+    - get-image-colors > get-pixels > request > hawk > sntp > hoek:
+        patched: '2021-08-21T07:06:23.004Z'
+    - get-image-colors > get-pixels > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-21T07:06:23.004Z'
+  SNYK-JS-LODASH-567746:
+    - inquirer > lodash:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint > lodash:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2021-08-21T07:06:23.004Z'
+    - standard > eslint > table > lodash:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:lodash:20180130':
+    - get-image-colors > get-svg-colors > cheerio > lodash:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:stringstream:20180511':
+    - get-image-colors > get-pixels > request > stringstream:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:tough-cookie:20170905':
+    - get-image-colors > get-pixels > request > tough-cookie:
+        patched: '2021-08-21T07:06:23.004Z'
+  'npm:tunnel-agent:20170305':
+    - sharp > caw > tunnel-agent:
+        patched: '2021-08-21T07:06:23.004Z'
