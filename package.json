@@ -35,7 +35,7 @@
     "dotenv-safe": "^4.0.4",
     "duration": "^0.2.0",
     "get-image-colors": "^1.8.1",
-    "github": "^9.2.0",
+    "github": "^14.0.0",
     "github-url-to-object": "^4.0.2",
     "husky": "^0.14.3",
     "image-size": "^0.5.0",
