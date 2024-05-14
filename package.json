@@ -30,7 +30,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
-    "check-for-leaks": "^1.0.2",
+    "check-for-leaks": "^1.2.1",
     "clean-deep": "^2.0.1",
     "dotenv-safe": "^4.0.4",
     "duration": "^0.2.0",
